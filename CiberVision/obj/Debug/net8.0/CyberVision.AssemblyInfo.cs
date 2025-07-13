@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CyberVision")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97eefc59218b79e0a3005ce51c4c4a5c0ae1e7b6")]
 [assembly: System.Reflection.AssemblyProductAttribute("CyberVision")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CyberVision")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
