@@ -1,0 +1,7 @@
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\obj\Release\net8.0\PubTmp\Out\CyberVision.exe
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\obj\Release\net8.0\PubTmp\Out\CyberVision.dll
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\obj\Release\net8.0\PubTmp\Out\CyberVision.deps.json
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\obj\Release\net8.0\PubTmp\Out\CyberVision.runtimeconfig.json
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\obj\Release\net8.0\PubTmp\Out\CyberVision.pdb

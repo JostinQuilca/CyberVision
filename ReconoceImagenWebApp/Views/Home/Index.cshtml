@@ -1,0 +1,188 @@
+﻿@model ReconoceImagenWebApp.Models.ImageAnalysisViewModel
+
+@{
+    ViewData["Title"] = "Análisis de Imagen - CyberVision";
+}
+
+<div class="form-container sidebar-content">
+    <h3 class="text-neon">Analizar Imagen</h3>
+    <form id="imageAnalysisForm" asp-action="AnalyzeImage" method="post" enctype="multipart/form-data">
+        <div class="form-group mb-3">
+            <label asp-for="ImageUrl" class="form-label">URL de la Imagen</label>
+            <input asp-for="ImageUrl" class="form-control" placeholder="https://ejemplo.com/imagen.jpg" />
+            <span asp-validation-for="ImageUrl" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="UploadedImageFile" class="form-label">Subir Imagen</label>
+            <div class="input-group">
+                <input type="file" asp-for="UploadedImageFile" class="form-control" accept="image/*" onchange="previewImage(event)" />
+                <span class="input-group-text"><i class="fas fa-upload"></i></span>
+            </div>
+            <span asp-validation-for="UploadedImageFile" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="SelectedSecondLanguageCode" class="form-label">Segundo Idioma</label>
+            <select asp-for="SelectedSecondLanguageCode" class="form-control" id="secondLanguage">
+                <option value="">Seleccionar Idioma</option>
+                <option value="en">Inglés</option>
+                <option value="fr">Francés</option>
+                <option value="de">Alemán</option>
+                <option value="pt">Portugués</option>
+                <option value="it">Italiano</option>
+            </select>
+            <span asp-validation-for="SelectedSecondLanguageCode" class="text-danger"></span>
+        </div>
+
+        <div class="d-flex gap-2">
+            <button type="button" id="btnClear" class="btn btn-neon">Limpiar</button>
+            <button type="submit" class="btn btn-neon">Analizar</button>
+        </div>
+
+        <div asp-validation-summary="All" class="text-danger mt-3" id="validationSummary"></div>
+    </form>
+</div>
+
+<!-- Modal para Resultados -->
+<div class="modal fade" id="resultsModal" tabindex="-1" aria-labelledby="resultsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content result-card">
+            <div class="modal-header">
+                <h5 class="modal-title text-neon" id="resultsModalLabel">Resultados del Análisis</h5>
+                <button type="button" class="btn-close btn-close-neon" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+                <div id="resultsSection" style="@(string.IsNullOrEmpty(Model.DescriptionSpanish) && string.IsNullOrEmpty(Model.DisplayImageUrl) ? "display: none;" : "")">
+                    @if (!string.IsNullOrEmpty(Model.DisplayImageUrl))
+                    {
+                        <div class="text-center mb-3">
+                            <h4>Imagen Analizada</h4>
+                            <img id="imagePreview" src="@Model.DisplayImageUrl" class="img-fluid" alt="Imagen Analizada" />
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="text-center mb-3">
+                            <p id="imagePlaceholder">La imagen aparecerá aquí.</p>
+                            <img id="imagePreview" src="#" alt="Vista Previa" style="display: none;" />
+                        </div>
+                    }
+
+                    @if (!string.IsNullOrEmpty(Model.DescriptionSpanish))
+                    {
+                        <div class="animate__animated animate__fadeInRight">
+                            <h4>Descripción (Español)</h4>
+                            <p>@Model.DescriptionSpanish</p>
+                        </div>
+
+                        @if (!string.IsNullOrEmpty(Model.DescriptionSecondLanguage))
+                        {
+                            <div class="animate__animated animate__fadeInRight mt-3">
+                                <h4>Descripción (@Model.SelectedSecondLanguageCode.ToUpper())</h4>
+                                <p>@Model.DescriptionSecondLanguage</p>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-neon" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script>
+        function previewImage(event) {
+            const reader = new FileReader();
+            reader.onload = function() {
+                const output = document.getElementById('imagePreview');
+                output.src = reader.result;
+                output.style.display = 'block';
+                output.classList.add('animate__animated', 'animate__fadeIn');
+                document.getElementById('imagePlaceholder').style.display = 'none';
+                document.getElementById('resultsSection').style.display = 'block';
+            };
+            if (event.target.files && event.target.files[0]) {
+                reader.readAsDataURL(event.target.files[0]);
+            }
+        }
+
+        document.getElementById('btnClear').addEventListener('click', function() {
+            document.getElementById('imageAnalysisForm').reset();
+            const imagePreview = document.getElementById('imagePreview');
+            imagePreview.src = '#';
+            imagePreview.style.display = 'none';
+            imagePreview.classList.remove('animate__animated', 'animate__fadeIn');
+            document.getElementById('imagePlaceholder').style.display = 'block';
+            document.getElementById('resultsSection').style.display = 'none';
+            document.querySelectorAll('.text-danger').forEach(el => el.innerHTML = '');
+            const modal = bootstrap.Modal.getInstance(document.getElementById('resultsModal'));
+            if (modal) {
+                modal.hide();
+            }
+        });
+
+        document.getElementById('imageAnalysisForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const form = this;
+            const formData = new FormData(form);
+            const imageUrl = document.getElementById('ImageUrl').value.trim();
+            const imageFile = document.getElementById('UploadedImageFile').files[0];
+            const validationSummary = document.getElementById('validationSummary');
+            const modal = new bootstrap.Modal(document.getElementById('resultsModal'), { backdrop: true });
+
+            // Validación del lado del cliente: solo requiere al menos una entrada
+            if (!imageUrl && !imageFile) {
+                validationSummary.innerHTML = '<div class="text-danger">Debes proporcionar una URL de imagen o subir una imagen.</div>';
+                return;
+            }
+
+            fetch(form.action, {
+                method: form.method,
+                body: formData
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Error en la respuesta del servidor');
+                }
+                return response.text();
+            })
+            .then(html => {
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, 'text/html');
+                const newResultsSection = doc.querySelector('#resultsSection');
+                const validationErrors = doc.querySelector('#validationSummary');
+                if (newResultsSection) {
+                    document.querySelector('#resultsSection').innerHTML = newResultsSection.innerHTML;
+                    document.querySelector('#resultsSection').style.display = 'block';
+                    modal.show();
+                } else if (validationErrors) {
+                    validationSummary.innerHTML = validationErrors.innerHTML;
+                } else {
+                    console.error('No se encontró #resultsSection en la respuesta');
+                    validationSummary.innerHTML = '<div class="text-danger">No se encontraron resultados para mostrar.</div>';
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                validationSummary.innerHTML = '<div class="text-danger">Ocurrió un error al analizar la imagen. Por favor, intenta de nuevo.</div>';
+            });
+        });
+
+        // Limpiar el backdrop al cerrar el modal
+        document.getElementById('resultsModal').addEventListener('hidden.bs.modal', function() {
+            document.body.classList.remove('modal-open');
+            const backdrops = document.querySelectorAll('.modal-backdrop');
+            backdrops.forEach(backdrop => backdrop.remove());
+            document.body.style.overflow = '';
+            document.body.style.paddingRight = '';
+        });
+    </script>
+}

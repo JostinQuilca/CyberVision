@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Política de Privacidad - CyberVision";
+}
+
+<div class="form-container sidebar-content">
+    <h3 class="text-neon">Política de Privacidad</h3>
+    <p class="mt-3">Última actualización: 12 de julio de 2025</p>
+
+    <h4 class="text-neon mt-4">1. Información que Recolectamos</h4>
+    <p>La aplicación CyberVision, desarrollada por Jostin Quilca, recolecta las imágenes que los usuarios suben a través del formulario de análisis. Estas imágenes se almacenan temporalmente en el servidor en la carpeta 'Uploads' para procesarlas.</p>
+
+    <h4 class="text-neon mt-4">2. Uso de la Información</h4>
+    <p>Las imágenes subidas se envían a los servicios de Azure Computer Vision y Azure Translator para generar descripciones y traducciones, según el idioma seleccionado. Estos datos se procesan únicamente para proporcionar los resultados al usuario y no se utilizan para otros fines.</p>
+
+    <h4 class="text-neon mt-4">3. Almacenamiento de Datos</h4>
+    <p>Las imágenes se guardan localmente en el servidor durante el tiempo necesario para procesarlas y mostrar los resultados. No se comparten con terceros, excepto con los servicios de Azure mencionados, quienes pueden tener sus propias políticas de privacidad.</p>
+
+    <h4 class="text-neon mt-4">4. Retención de Datos</h4>
+    <p>Las imágenes se eliminan automáticamente del servidor después de 24 horas o cuando el usuario utiliza la función 'Limpiar', lo que ocurra primero. Los datos no se conservan a largo plazo.</p>
+
+    <h4 class="text-neon mt-4">5. Seguridad</h4>
+    <p>Implementamos medidas básicas de seguridad, como acceso restringido al servidor, para proteger la información recolectada. Sin embargo, no garantizamos seguridad absoluta contra accesos no autorizados.</p>
+
+    <h4 class="text-neon mt-4">6. Derechos del Usuario</h4>
+    <p>Los usuarios pueden eliminar sus imágenes usando la función 'Limpiar' en la aplicación. Si deseas solicitar más información sobre tus datos, contáctanos en [tu correo o contacto].</p>
+
+    <h4 class="text-neon mt-4">7. Cambios en la Política de Privacidad</h4>
+    <p>Podemos actualizar esta política de privacidad periódicamente. Te notificaremos sobre cambios significativos a través de la aplicación o por correo electrónico.</p>
+
+    <h4 class="text-neon mt-4">8. Contacto</h4>
+    <p>Para preguntas o preocupaciones sobre esta política, contáctanos en [tu correo o contacto].</p>
+
+    <div class="mt-4">
+        <a asp-action="Index" class="btn btn-neon">Volver al Inicio</a>
+    </div>
+</div>
+
+@section Scripts {
+    <!-- No se necesitan scripts adicionales aquí -->
+}

@@ -1,0 +1,62 @@
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\bin\Debug\net8.0\appsettings.json
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\bin\Debug\net8.0\ReconoceImagenWebApp.staticwebassets.runtime.json
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\bin\Debug\net8.0\ReconoceImagenWebApp.staticwebassets.endpoints.json
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\bin\Debug\net8.0\ReconoceImagenWebApp.exe
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\bin\Debug\net8.0\ReconoceImagenWebApp.deps.json
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\bin\Debug\net8.0\ReconoceImagenWebApp.runtimeconfig.json
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\bin\Debug\net8.0\ReconoceImagenWebApp.dll
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\bin\Debug\net8.0\ReconoceImagenWebApp.pdb
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\obj\Debug\net8.0\ReconoceImagenWebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\obj\Debug\net8.0\ReconoceImagenWebApp.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\obj\Debug\net8.0\ReconoceImagenWebApp.AssemblyInfo.cs
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\obj\Debug\net8.0\ReconoceImagenWebApp.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\obj\Debug\net8.0\ReconoceImagenWebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\obj\Debug\net8.0\ReconoceImagenWebApp.RazorAssemblyInfo.cache
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\obj\Debug\net8.0\ReconoceImagenWebApp.RazorAssemblyInfo.cs
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\obj\Debug\net8.0\scopedcss\bundle\ReconoceImagenWebApp.styles.css
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\obj\Debug\net8.0\scopedcss\projectbundle\ReconoceImagenWebApp.bundle.scp.css
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\obj\Debug\net8.0\ReconoceImagenWebApp.dll
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\obj\Debug\net8.0\refint\ReconoceImagenWebApp.dll
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\obj\Debug\net8.0\ReconoceImagenWebApp.pdb
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\obj\Debug\net8.0\ReconoceImagenWebApp.genruntimeconfig.cache
+C:\Users\HP\Documents\Zubel\Sexto Semestre\Cloud computing\Proyectos\Visual Studio\Trabajo\ReconoceImagenWebApp\ReconoceImagenWebApp\obj\Debug\net8.0\ref\ReconoceImagenWebApp.dll
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\bin\Debug\net8.0\appsettings.json
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\bin\Debug\net8.0\ReconoceImagenWebApp.staticwebassets.runtime.json
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\bin\Debug\net8.0\ReconoceImagenWebApp.staticwebassets.endpoints.json
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\bin\Debug\net8.0\ReconoceImagenWebApp.exe
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\bin\Debug\net8.0\ReconoceImagenWebApp.deps.json
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\bin\Debug\net8.0\ReconoceImagenWebApp.runtimeconfig.json
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\bin\Debug\net8.0\ReconoceImagenWebApp.dll
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\bin\Debug\net8.0\ReconoceImagenWebApp.pdb
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\obj\Debug\net8.0\ReconoceImagenWebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\obj\Debug\net8.0\ReconoceImagenWebApp.AssemblyInfoInputs.cache
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\obj\Debug\net8.0\ReconoceImagenWebApp.AssemblyInfo.cs
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\obj\Debug\net8.0\ReconoceImagenWebApp.csproj.CoreCompileInputs.cache
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\obj\Debug\net8.0\ReconoceImagenWebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\obj\Debug\net8.0\ReconoceImagenWebApp.RazorAssemblyInfo.cache
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\obj\Debug\net8.0\ReconoceImagenWebApp.RazorAssemblyInfo.cs
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\obj\Debug\net8.0\scopedcss\bundle\ReconoceImagenWebApp.styles.css
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\obj\Debug\net8.0\scopedcss\projectbundle\ReconoceImagenWebApp.bundle.scp.css
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\obj\Debug\net8.0\ReconoceImagenWebApp.dll
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\obj\Debug\net8.0\refint\ReconoceImagenWebApp.dll
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\obj\Debug\net8.0\ReconoceImagenWebApp.pdb
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\obj\Debug\net8.0\ReconoceImagenWebApp.genruntimeconfig.cache
+C:\Users\Damian Portilla\OneDrive\Documentos\ReconoceImagenWebApp-main\ReconoceImagenWebApp\obj\Debug\net8.0\ref\ReconoceImagenWebApp.dll

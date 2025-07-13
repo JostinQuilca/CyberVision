@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - CyberVision</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="layout-wrapper">
+        <aside id="sidebar" class="sidebar">
+            <div class="sidebar-header">
+                <h2 class="text-neon">CyberVision</h2>
+                <button id="sidebar-toggle" class="btn btn-neon d-md-none"><i class="fas fa-bars"></i></button>
+            </div>
+            <nav class="sidebar-nav">
+                <a class="nav-link text-neon" asp-area="" asp-controller="Home" asp-action="Index">Analizar</a>
+                <a class="nav-link text-neon" asp-area="" asp-controller="Home" asp-action="Privacy">Privacidad</a>
+            </nav>
+        </aside>
+        <main class="main-content">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footer text-neon">
+        <div class="container-fluid">
+            © @DateTime.Now.Year - CyberVision por <a class="text-neon" href="https://jostinquilca.com">Jostin Quilca</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
